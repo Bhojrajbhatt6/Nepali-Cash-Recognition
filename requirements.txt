@@ -4,3 +4,4 @@ pyttsx3
 Pillow
 numpy
 pandas
+gtts
