@@ -25,7 +25,7 @@ The model achieved an accuracy of 95% on training data and 93% (approx) on valid
 
 The confusion matrix for the model on test data is shown below:
 
-<img src = "./evaluation-images/Confusion-matrix.png">
+<img src = "./evaluation-images/Confusion-matrix.png
 
 A confusion matrix is a table that is often used to evaluate the performance of a classification model. The matrix compares the actual class labels of the test data with the predicted labels given by the model.
 
@@ -44,7 +44,7 @@ By analyzing the confusion matrix, we can evaluate the performance of the model 
 For example, in the above matrix, we can see that the model is confusing the classes and has misclassified 6 instances of 10 as 500. We can use this information to improve the model's performance, for example by increasing the amount of training data or tweaking the model's hyperparameters.
 
 ### Training and Validation Accuracy
-<img src = "./evaluation-images/training-accuracy.png" alt="Training Accuracy" />
+<img src=./evaluation-images/training-accuracy.png/>
 
 The above figure shows the model being trained and evaluated for 17 epochs. The model's performance is evaluated on a validation dataset after each epoch to check if the model is overfitting or learning general patterns.
 
